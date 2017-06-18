@@ -1,0 +1,12 @@
+{
+    "id": "home.specialcircumstances.test01",
+    "name": {
+        "en": "Test01"
+    },
+    "version": "0.0.1",
+    "compatibility": "0.x || 1.x",
+    "author": {
+        "name": "Jonathan Stevens",
+        "email": "jonathanjstevens@gmail.com"
+    }
+}
