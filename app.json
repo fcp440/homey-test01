@@ -40,20 +40,8 @@
             "meter_power"
           ],
           "name": {
-            "en": "Phase 01"
-          },
-          "settings": []
-        },
-        "2": {
-          "class": "other",
-          "capabilities": [
-            "measure_power",
-            "meter_power"
-          ],
-          "name": {
-            "en": "Phase 02"
-          },
-          "settings": []
+            "en": "Clamp 01"
+          }
         }
       }
     },
@@ -230,9 +218,8 @@
         "type": "number"
       },
       {
-        "type": "group",
-        "hideid": 101,
-        "hidevalue": 2,
+        "id": 101,
+        "value": 2,
         "label": {
           "en": "Group 1 Reports"
         },
@@ -240,140 +227,11 @@
           "en": "To set which reports need to be sent in Report group 1."
         },
         "_size": 4,
-        "children": [
-          {
-            "id": "rep1kwh0",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for kWh (Whole HEM)"
-            }
-          },
-          {
-            "id": "rep1w0",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT for Wattage (Whole HEM)"
-            }
-          },
-          {
-            "id": "rep1v0",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT for Voltage (Whole HEM)"
-            }
-          },
-          {
-            "id": "rep1i0",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT for Current (Whole HEM)"
-            }
-          },
-          {
-            "id": "rep1kwh1",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for kWh (Clamp 1)"
-            }
-          },
-          {
-            "id": "rep1kwh2",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for kWh (Clamp 2)"
-            }
-          },
-          {
-            "id": "rep1kwh3",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for kWh (Clamp 3)"
-            }
-          },
-          {
-            "id": "rep1w1",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for Wattage (Clamp 1)"
-            }
-          },
-          {
-            "id": "rep1w2",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for Wattage (Clamp 2)"
-            }
-          },
-          {
-            "id": "rep1w3",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for Wattage (Clamp 3)"
-            }
-          },
-          {
-            "id": "rep1v1",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for Voltage (Clamp 1)"
-            }
-          },
-          {
-            "id": "rep1v2",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for Voltage (Clamp 2)"
-            }
-          },
-          {
-            "id": "rep1v3",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for Voltage (Clamp 3)"
-            }
-          },
-          {
-            "id": "rep1i1",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for Current (Clamp 1)"
-            }
-          },
-          {
-            "id": "rep1i2",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for Current (Clamp 2)"
-            }
-          },
-          {
-            "id": "rep1i3",
-            "type": "checkbox",
-            "value": false,
-            "label": {
-                "en": "Meter REPORT  for Current (Clamp 3)"
-            }
-          }
-        ]
+        "type": "number"
       },
       {
         "id": 102,
-        "value": 0,
+        "value": 12,
         "label": {
           "en": "Group 2 Reports"
         },
@@ -385,7 +243,7 @@
       },
       {
         "id": 103,
-        "value": 0,
+        "value": 1,
         "label": {
           "en": "Group 3 Reports"
         },
@@ -410,7 +268,7 @@
       },
       {
         "id": 112,
-        "value": 120,
+        "value": 300,
         "label": {
           "en": "Set the interval time of sending report."
         },
@@ -422,7 +280,7 @@
       },
       {
         "id": 113,
-        "value": 120,
+        "value": 300,
         "label": {
           "en": "Set the interval time of sending report."
         },
